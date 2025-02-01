@@ -1,0 +1,8 @@
+https://github.com/xfybv/SitiosWebDinamicosPBV.git
+
+Tarea 1
+1
+- Utilizando Nodejs y express desarrollar una Calculadora web que permita realizar operaciones matemáticas básicas (sumar, restar , multiplicar, dividir). Los datos de entrada y salida se manejan directamente en el código JavaScript del servidor. Se debe generar un menú con las 4 operaciones, solicito 2 input el valorde a y b y el botón calcular, al presionar el botón debe mostrar el resultado.
+2
+- Crear la base de datos en mysql bd_agenda y la tabla agenda con los campos id smallint autonumerado, nombres varchar(40),apellidos varchar(30), dirección varchar(100),teléfono int,luego realice las operaciones CRUD sobre esta tabla.
+Crear un repositorio con el nombre de SitiosWebDinamicosXXX donde XXX deben ser sus iniciales

@@ -1,0 +1,28 @@
+<% include('layout', { body: null }) %>
+<h2>Lista de Contactos</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Direccion</th>
+      <th>Telefono</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% agendar.forEach(agendar => { %>
+      <tr>
+        <td><%= agendar.nombres %></td>
+        <td><%= agendar.apellidos %></td>
+        <td><%= agendar.direccion %></td>
+        <td><%= agendar.telefono %></td>
+        <td>
+          <a href="/edit/<%= agendar.id %>">Editar</a>
+          <a href="/delete/<%= agendar.id %>">Eliminar</a>
+        </td>
+      </tr>
+    <% }) %>
+
+    <a href="/add">Registrar Contacto</a>
+  </tbody>
+</table>
